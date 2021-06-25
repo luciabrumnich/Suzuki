@@ -1,0 +1,217 @@
+header {
+    text-align: center;
+    font-family: Geneva, Tahoma, Verdana, sans-serif;
+}
+
+body{
+    text-align: center;
+    font-family: Geneva, Tahoma, Verdana, sans-serif;
+    font-size: 15px;
+    color: black;
+    background-color: #FCFCFC;
+}
+
+
+/* FOTOS  */
+#containerFotos {
+    width: 90%;
+    height: 400px;
+    margin: auto;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    background-color: #FCFCFC;
+}
+
+#slider {
+    width: 80%;
+    height: 370px;
+    margin: auto;
+    border: 5px solid black;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    background-color: #FCFCFC;
+}
+
+#slider div {
+    width: 75%;
+    height: 80%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#slider img {
+    width: 550px;
+    height: 350px;
+    border-radius: 7px;
+}
+
+.registros {
+    width: 90%;
+    height: 370px;
+    margin: 0 auto;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FCFCFC;
+}
+
+#perfil {
+    width: 80%;
+    height: 330px;
+    margin: 0 auto;
+    border: 5px solid black;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    background-color: #FCFCFC;
+}
+
+.registros div {
+    display: inline-flex;
+    margin: 30px;
+}
+
+.registros img {
+    width: 290px;
+    height: 300px;
+    border-radius: 7px;
+}
+
+
+/* TEXTO */
+#texto {
+    width: 72%;
+    display: flex;
+    margin:  40px auto;
+    text-align: center;
+}
+
+.texto {
+    width: 90%;
+    margin: 30px 0 auto;
+    display: flex;
+    text-align: center;
+}
+
+#cv {
+    font-size: 0.9em;
+    text-align: justify;
+}
+
+
+/* TABLA DE HORARIOS Y RESERVA */
+/* Falta trabajar en el responsive design */ 
+#containerHorarios {
+    width: 90%;
+    height: 400px;
+    margin: auto; /* centrado del container. no modificar  */
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    background-color: #FCFCFC;
+    font-family: Geneva, Tahoma, Verdana, sans-serif;
+}
+
+#containerHorarios div {
+    margin: auto;
+    width: 80%;
+
+}
+
+#tabla_reserva {
+    display: flex;
+    border: 5px solid black;
+    border-radius: 10px;
+}
+
+ul {
+    list-style: none;
+}
+
+#table {
+    background-color:silver;
+    color: black;
+    padding: 10px;
+    border: 2.5px solid white;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FCFCFC;
+}
+
+.clase .description {
+    font-size: 1em;
+    margin: 0;
+}
+
+table button {
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #FCFCFC;
+    width: 100px;
+}
+
+#reserva {
+    width: 300px;
+    padding: 10px 0;
+    margin: 1em;
+    border: 2.5px solid black;
+    border-radius: 10px;
+    color: black;
+    justify-content: center;
+}
+
+#reserva ul {
+    padding: 0;
+    font-size: 0.9em;
+}
+
+#reserva #eliminar {
+    color: rgba(0, 0, 0, 0.815);
+    font-size: 0.9rem;
+    background-color: #cfcfcf;
+    border-radius: 5px;
+    margin: auto;
+}
+
+#reserva #confirmar {
+    color: black;
+    font-size: 1rem;
+    background-color: #FCFCFC;
+    border-radius: 5px;
+}
+
+#reserva h4 {
+    text-align: center;
+    color: black;
+    font-size: 1em;
+}
+
+
+/* CONTACTO */
+#footer {
+    width: 72%;
+    margin: auto;
+    border: 2px solid black;
+    border-radius: 10px;
+   /*  border: 15px solid #a0a6b3;
+    background-color: #a0a6b3; */
+    color: black;
+}
+
+#contacto {
+    font-size: 20px;
+}
+
